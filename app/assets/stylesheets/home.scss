@@ -1,0 +1,35 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.nav {
+  text-align: center;
+
+  a {
+    margin: 10px;
+  }
+}
+
+.listContainer {
+  margin-top: 50px;
+
+
+  .todoList {
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+  }
+}
+
+#addTodoBtn {
+  color: white;
+}
+#newTodoList {
+  margin-top: 30px;
+}
+
+.done {
+  text-decoration: line-through;
+}
