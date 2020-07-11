@@ -10,7 +10,6 @@ class TodoTasksController < ApplicationController
     render json: todo
   end
 
-
   def destroy
     todo = TodoTask.find(params[:id])
     todo.destroy
